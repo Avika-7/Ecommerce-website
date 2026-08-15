@@ -84,7 +84,7 @@ function ProductCard({ product }) {
           {product.title}
         </h4>
 
-        <p className="mt-1.5 line-clamp-2 min-h-[2.5rem] text-sm leading-5 text-[#71675A]">
+        <p className="mt-1.5 line-clamp-2 min-h-10 text-sm leading-5 text-[#71675A]">
           {product.description}
         </p>
 
