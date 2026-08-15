@@ -1,6 +1,5 @@
 import React from 'react'
 import AutoSuggestion from './Components/AutoSuggestion'
-import "./App.css"
 
 const App = () => {
     return (
