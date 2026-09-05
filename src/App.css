@@ -1,20 +1,28 @@
-.container{
-    width: 80vw;
-    margin: 5rem auto;
+@keyframes wordmark-enter {
+    from {
+        opacity: 0;
+        transform: translateY(18px) scale(0.96);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
 }
 
-.container input{
-    width: 70%;
-    margin: 2rem auto;
-    display: block;
-    font-size: 2.5rem;
-    outline: none;
+@keyframes intro-exit {
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
 
-.container h1{
-    text-align: center;
-}
-
-.product img{
-    width: 80px;
+@keyframes page-rise {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

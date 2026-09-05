@@ -1,12 +1,12 @@
-import React from 'react'
-import AutoSuggestion from './Components/AutoSuggestion'
+import AutoSuggestion from "./Components/AutoSuggestion";
+import IntroScreen from "./Components/IntroScreen";
 
 const App = () => {
-    return (
-        <div>
-            <AutoSuggestion/>
-        </div>
-    )
-}
+  return (
+    <IntroScreen>
+      <AutoSuggestion />
+    </IntroScreen>
+  );
+};
 
-export default App
+export default App;
